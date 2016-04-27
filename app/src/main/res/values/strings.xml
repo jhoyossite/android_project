@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Actividad3</string>
     <string name="action_settings">Settings</string>
-    <string name="action_menu1">Menu 1</string>
+    <string name="action_menu1">Refresh</string>
+
+    <string name="pref_location_label">Location</string>
+    <string name="pref_location_key">location</string>
+    <string name="pref_location_default">Pereira,CO</string>
 </resources>
