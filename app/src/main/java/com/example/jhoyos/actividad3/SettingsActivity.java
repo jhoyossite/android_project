@@ -14,6 +14,7 @@ public class SettingsActivity extends PreferenceActivity implements Preference.O
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.pref_general);
         bindPreferenceSumaryToValue(findPreference(getString(R.string.pref_location_key)));
+        bindPreferenceSumaryToValue(findPreference(getString(R.string.pref_units_key)));
     }
 
     private void bindPreferenceSumaryToValue(Preference preference){
